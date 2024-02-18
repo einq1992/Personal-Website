@@ -1,0 +1,25 @@
+/* Add this CSS to your stylesheet */
+header nav ul {
+    display: flex; /* Use flexbox */
+    justify-content: space-around; /* Distribute items horizontally */
+    list-style-type: none; /* Remove default list styles */
+    padding: 0;
+}
+
+header nav ul li {
+    margin: 0 10px; /* Add some spacing between navigation items */
+}
+
+header nav ul li a {
+    text-decoration: none;
+    color: black;
+    font-weight: bold;
+}
+
+h1 {
+    display: flex;
+    justify-content: center; /* Center items horizontally */
+    align-items: center; /* Center items vertically */
+    /* height: 100vh; Set the height of the body to the full viewport height */
+    margin: 0; /* Remove default margin */
+}
